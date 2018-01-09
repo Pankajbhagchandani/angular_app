@@ -1,0 +1,7 @@
+<div *ngIf="!!pets">
+  <ul *ngFor="let pet of pets; trackBy:doNotTrack">
+    <div class="pet-info">
+        <li class="pet-name">{{pet}}</li>
+    </div>
+  </ul>
+</div>

@@ -1,0 +1,9 @@
+<header>
+  <h3>Welcome to the Pet Dashboard!!!</h3>
+</header>
+<section *ngFor="let gender of genders;trackBy:trackGender">
+  <h4>{{gender}}</h4>
+  <div class="{{gender}}">
+    <pet-list [pets]="catsByGender[gender].sort()"></pet-list>
+  </div>
+</section>

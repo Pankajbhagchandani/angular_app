@@ -1,0 +1,19 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding:40px;
+}
+
+#my-navlist li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+h4 {
+  color: darkblue;
+  margin:20px;
+}
